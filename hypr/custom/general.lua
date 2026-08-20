@@ -1,0 +1,3 @@
+-- Custom general Hyprland overrides
+-- Example:
+-- hl.config({ general = { gaps_out = 10 } })
