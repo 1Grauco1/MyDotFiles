@@ -1,0 +1,54 @@
+[config]
+default_mode = "dark"
+
+[templates.hyprland]
+input_path = "../zenith/templates/hyprland-colors.lua"
+output_path = "~/.config/hypr/hyprland/colors.lua"
+
+[templates.quickshell]
+input_path = "../zenith/templates/Colors.qml"
+output_path = "~/.config/quickshell/Colors.qml"
+
+[templates.quickshell_local]
+input_path = "../zenith/templates/Colors.qml"
+output_path = "../../zenith-shell/Colors.qml"
+
+[templates.gtk3]
+input_path = "../zenith/templates/gtk.css"
+output_path = "~/.config/gtk-3.0/gtk.css"
+
+[templates.gtk3_extra]
+input_path = "../zenith/templates/gtk-extra.css"
+output_path = "~/.config/gtk-3.0/gtk-extra.css"
+
+[templates.gtk4]
+input_path = "../zenith/templates/gtk.css"
+output_path = "~/.config/gtk-4.0/gtk.css"
+
+[templates.gtk4_extra]
+input_path = "../zenith/templates/gtk-extra.css"
+output_path = "~/.config/gtk-4.0/gtk-extra.css"
+
+[templates.palette]
+input_path = "../zenith/templates/color-palette.css"
+output_path = "~/.themes/color-palette.css"
+
+[templates.palette_gtk3]
+input_path = "../zenith/templates/color-palette.css"
+output_path = "~/.config/gtk-3.0/color-palette.css"
+
+[templates.palette_gtk4]
+input_path = "../zenith/templates/color-palette.css"
+output_path = "~/.config/gtk-4.0/color-palette.css"
+
+[templates.kitty]
+input_path = "../zenith/templates/kitty-theme.conf"
+output_path = "~/.config/kitty/current-theme.conf"
+
+[templates.starship]
+input_path = "../zenith/templates/starship.toml"
+output_path = "~/.config/starship.toml"
+
+[templates.rofi]
+input_path = "../zenith/templates/rofi-colors.rasi"
+output_path = "~/.config/rofi/themes/colors/colors.dark.rasi"
